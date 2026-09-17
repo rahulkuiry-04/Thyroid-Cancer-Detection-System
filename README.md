@@ -10,6 +10,8 @@ An AI-powered web application for detecting thyroid cancer from medical images u
 - **Report Generation**: Download detailed DOCX reports with analysis results
 - **Professional UI**: Clean, medical-themed interface
 
+🔗 **[Try the app here](<https://thyroid-cancer-detection-system-bfvyfsr2xneyzevvv4cwvd.streamlit.app/>)**
+
 ##  Project Structure
 
 ```
@@ -80,6 +82,21 @@ Thyroid new/
 
 **Input**: 224x224 RGB images  
 **Output**: Binary classification (Benign/Malignant)
+
+## Test Results
+
+Evaluated on a held-out test set of 381 thyroid ultrasound images (balanced across both classes after upsampling):
+
+| Metric | Negative (Class 0) | Positive (Class 1) | Overall |
+|---|---|---|---|
+| Precision | 0.86 | 0.87 | 0.86 (macro/weighted avg) |
+| Recall | 0.87 | 0.86 | 0.86 (macro/weighted avg) |
+| F1-score | 0.86 | 0.86 | 0.86 (macro/weighted avg) |
+| Support | 191 | 190 | 381 |
+
+**Overall Test Accuracy: 86%**
+
+**Dataset**: 3,115 thyroid ultrasound images ([Kaggle: thyroid-cancer-classification-ultrasound-dataset](https://www.kaggle.com/datasets/diveshzz/thyroid-cancer-classification-ultrasound-dataset)), originally imbalanced (1,905 negative / 1,210 positive), balanced via upsampling before an 80/10/10 train/validation/test split.
 
 ##  Technologies
 
