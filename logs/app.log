@@ -1,0 +1,18 @@
+23:34:59 - INFO - streamlit_app - Loading model for Streamlit...
+23:35:00 - INFO - streamlit_app - Streamlit model loaded successfully
+23:35:11 - INFO - streamlit_app - Image uploaded in Streamlit: 0 non cancer.jpg
+23:35:11 - INFO - processing - Preprocessing image of size: (279, 268) and mode: L
+23:37:24 - INFO - streamlit_app - Loading model for Streamlit...
+23:37:26 - INFO - streamlit_app - Streamlit model loaded successfully
+23:37:35 - INFO - streamlit_app - Image uploaded in Streamlit: 0 non cancer.jpg
+23:37:35 - INFO - processing - Preprocessing image of size: (279, 268) and mode: L
+23:37:36 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+23:37:47 - INFO - streamlit_app - Image uploaded in Streamlit: 0 non cancer.jpg
+23:37:47 - INFO - processing - Preprocessing image of size: (279, 268) and mode: L
+23:37:48 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+23:42:16 - INFO - streamlit_app - Image uploaded in Streamlit: 1 cancer.jpg
+23:42:16 - INFO - processing - Preprocessing image of size: (480, 352) and mode: L
+23:42:17 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+23:42:27 - INFO - streamlit_app - Image uploaded in Streamlit: 1 cancer.jpg
+23:42:27 - INFO - processing - Preprocessing image of size: (480, 352) and mode: L
+23:42:28 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)

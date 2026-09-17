@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import cv2
-import matplotlib.cm as cm
+import matplotlib as mpl
 from PIL import Image
 from utils.logger import logger
 
@@ -66,7 +66,9 @@ def save_and_display_gradcam(img, heatmap, alpha=0.4):
     heatmap = np.uint8(255 * heatmap)
 
     # Use jet colormap to colorize heatmap
-    jet = cm.get_cmap("jet")
+    jet = mpl.colormaps['jet']
+    
+
 
     # Use RGB values of the colormap
     jet_colors = jet(np.arange(256))[:, :3]
